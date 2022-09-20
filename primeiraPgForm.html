@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina Cadastro</title>
+  </head>
+  <body>
+    <li><a href="index.html"> home </a></li>
+    <h3>Pagina de Cadastro pessoa</h3>
+    <div>
+      <form>
+        <label for="fname">Digite o primeiro nome:</label>
+        <input type="text" id="nome" name="nome" required /> -
+        <label for="lname">Ultimo nome:</label>
+        <input type="text" id="lname" name="lname" required /><br /><br />
+      </form>
+    </div>
+    <div>
+    <form>
+      <label for="email">email:</label>
+      <input type="email" id="email" name="email" required /> -
+      <label for="password">password:</label>
+      <input type="password" id="password" name="password" required /><br />
+    </form>
+    <br />
+    <div>
+
+      <label for="data">Data de nascimento </label>
+      <input type="date" id="bd" name="bd" required /> -
+      <label for="FOTO">Foto: </label>
+      <input type="file" id="foto" name="foto" >
+
+ <div>
+  <br>
+    <label for="nacionalidade">Nacionalidade</label>
+    <select nome="nacionalidade" id="nacionalidade"
+    <option  value="brasil"> Brasileiro</option>
+    <option  value="brasil"> Brasileiro</option>
+    <option  value="argentino"> Argentino</option>
+    <option  value="california"> California</option>
+    </select
+    <br>
+  </div><br>
+
+    <div>
+    <textarea name="message" rows="10" cols="80">
+    Digite seu comentario
+    
+    </textarea>
+  </div>
+
+ 
+
+    <br />
+    <br />
+
+    <button type="button" onclick="alert('cadastro realizado')">
+      Cadastrar!
+    </button>
+  </body>
+</html>

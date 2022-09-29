@@ -1,0 +1,32 @@
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(116, 90, 79);
+}
+
+.date{
+  font-family: 'Roboto', sans-serif;
+  color: #f2fdfc;
+}
+
+.post-container{
+  background-color: #dcec94;
+}
+
+.ul{
+  color: rgb(245, 39, 39);
+}
+
+.post-container{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.post{
+  margin-bottom: 30px;
+}
+
+body{
+  background-image: url(https://img.freepik.com/fotos-premium/gradiente-de-luz-turva-fundo-abstrato-suave_548821-29276.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
